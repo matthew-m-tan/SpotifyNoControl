@@ -55,7 +55,7 @@ namespace WindowsFormsApp1
         /// </summary>
         static void Main()
         {
-            // Launch Spotify
+            // Helper function to launch Spotify
             LaunchSpotify();
 
             // Get the windows UI element that is a child of the Spotify main window using 'Chrome_Widgetwin_0' layer class
@@ -81,7 +81,7 @@ namespace WindowsFormsApp1
         }
 
         /// <summary>
-        /// Launches spotify application by getting the executablenin AppData
+        /// Launches spotify application by getting the executable in AppData
         /// </summary>
         private static void LaunchSpotify()
         {
